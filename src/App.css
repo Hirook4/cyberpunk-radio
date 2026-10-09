@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Rajdhani", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+body {
+  background:
+    linear-gradient(180deg, rgba(80, 10, 10, 0.6) 0%, rgba(0, 0, 0, 0.95) 100%),
+    url("./assets/bg-car.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Rajdhani", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.radio-container {
+  width: 30vw;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #78faff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.label {
+  font-size: 8px;
+  color: #ff6964;
+}
+
+.header {
+  border: 1px solid #ff6964;
+  border-left-width: 8px;
+  border-radius: 5px 0 0 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.track-label {
+  margin-left: 155px;
+  font-size: 8px;
+  color: #ff6964;
+  border-bottom: 1px solid #ff6964;
+}
+
+.now-playing {
+  display: flex;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+
+.track-name {
+  color: #ff6964;
+}
+
+.volume {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ff6964;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  max-height: 300px;
+  overflow-y: scroll;
+  padding-left: 5px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.wave {
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  margin-right: 4px;
+  margin-bottom: -2px;
+}
+
+.selected {
+  background-color: #78fbff35;
+  border: 1px solid #78faff;
+}
+
+.footer {
+  padding-top: 15px;
+  color: #ff6964;
+  border-top: 1px solid #ff6964;
+  font-size: 5px;
+}
